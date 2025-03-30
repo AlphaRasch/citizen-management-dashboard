@@ -11,8 +11,8 @@ export default defineConfig({
       usePolling: true,
     },
   },
+  base: "/citizen-management-dashboard/",
   build: {
     outDir: 'dist',
-    },
-    base: "/citizen-management-dashboard/",
+  },
 });
