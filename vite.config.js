@@ -11,4 +11,8 @@ export default defineConfig({
       usePolling: true,
     },
   },
+  build: {
+    outDir: 'build',
+    },
+    base: "/citizen-management-dashboard/",
 });
